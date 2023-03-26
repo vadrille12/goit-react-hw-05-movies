@@ -1,0 +1,30 @@
+.Button {
+  background-color: orange;
+  width: 90px;
+  margin: 50px 0;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.AddInfo {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.To {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.To:hover {
+    color: orange;
+}

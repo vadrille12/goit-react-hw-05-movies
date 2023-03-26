@@ -1,0 +1,39 @@
+.Wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.Input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.Button {
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.Button:hover {
+  background-color: #470606;
+  color: white;
+}
+
+.NavLink {
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.Li::marker {
+  color: #470606;
+}

@@ -1,0 +1,10 @@
+.NavLink {
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.Li::marker {
+  color: #470606;
+}

@@ -1,0 +1,35 @@
+.LayoutWrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Nav {
+  display: flex;
+  gap: 50px;
+}
+
+.Header {
+  background-color: #470606;
+}
+
+.HeaderWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.NavLink:hover,
+.NavLink:focus {
+  color: orange;
+}
+
+.NavLink.active {
+  color: orange;
+}
